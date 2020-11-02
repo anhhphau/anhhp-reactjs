@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bài 2: Form</title>
+</head>
+<body>
+    <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+    <form action="">
+        <table>
+            <tr>
+                <th>Nội dung</th>
+                <th>Giá trị</th>
+            </tr>
+            <tr>
+                <td>Họ tên</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td><input type="file"/></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Tuổi</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Giới tính</td>
+                <td><input type="radio" name="gender" value="Name">Name</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="Nữ" checked="checked">Nữ</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Sở thích</td>
+                <td><input type="checkbox" name="sothich" value="Đá bóng">Đá Bóng</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="sothich" value="Cầu lông">Cầu lông</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="sothich" value="Đua thuyền">Đua thuyền</td>
+            </tr>
+            <tr>
+                <td>Ghi chú</td>
+                <td><textarea name="message" style="width:150px; height:30px;">Buổi học đầu tiên về Html</textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Đăng ký">
+    </form>
+</body>
+</html>
