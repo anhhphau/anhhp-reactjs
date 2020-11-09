@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+.table-create {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: scroll;
+}
+table {
+    width: 800px;
+    height: 300px;
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: 5px;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid #dee2e6;
+}
+.create-title {
+    background-image: linear-gradient(to right, #8f4882 , #69818e);
+    color: #ffffff;
+}
+img {
+    width: 10px;
+    height: 14px;
+    margin-left: 4px;
+}
+tr:nth-child(3n+1) {
+    background-color: #3498db;
+}
+tr:nth-child(3n+2) {
+    background-color: #1abc9c;
+}
+tr:nth-child(3n+3) {
+    background-color: #2ecc71;
+}

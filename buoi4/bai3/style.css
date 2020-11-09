@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 1000px;
+    height: 700px;
+    border-collapse: collapse;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+table,
+tr,
+th {
+    background: #ee5351;
+}
+tr {
+    border: 5px solid #ffffff;
+}
+p {
+    color: #ffffff;
+    text-align: center;
+}
